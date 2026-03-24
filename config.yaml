@@ -1,0 +1,14 @@
+litellm_settings:
+  callbacks: ["my_logging.my_logger"]
+
+model_list:
+  - model_name: "claude-3-5-sonnet" 
+    litellm_params:
+      model: "gpt-4.1" 
+      api_base: "https://zjuapi.com/v1"
+      api_key: "sk-VE9aSKt2P9NZX5J1OehU8xRUdoKzO3K7jiEZPot4j4Md24kI"
+      custom_llm_provider: "openai"  
+
+general_settings:
+  master_key: "sk-1234"  
+  disable_protected_auth: true
